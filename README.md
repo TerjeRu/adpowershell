@@ -26,22 +26,25 @@ Usage
 
 Each script in this repository is tailored for specific AD tasks. Here's how to use them:
 
-    File Operations: Scripts related to file operations in AD...
-        FileName.ps1: Description of what this script does. Usage instructions.
-        AnotherFile.ps1: Description and usage.
+    Group Management: 
+    GetGroupMembersFromSeveralGroups.ps1 
+       retrieves all members, including nested group members from a
+       list of groups in a csv
+    
+    
+    File Operations:
 
-    Group Management: Scripts for managing AD groups...
-        GroupScript.ps1: Description and usage instructions.
 
-    User Account Handling: Scripts for user account management...
-        UserScript.ps1: Description and instructions.
+    User Account Handling: 
 
 Remember to modify the file, group, user names, and file paths in the scripts as applicable to your AD environment.
+
+
 Customization
-
 Most scripts will require some level of customization to work in your environment. Look for comments in the scripts indicating where changes are likely needed.
-Contributing
 
+
+Contributing
 Contributions to this repository are welcome. To contribute:
 
     Fork the repository.
