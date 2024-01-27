@@ -27,9 +27,7 @@ Usage
 Each script in this repository is tailored for specific AD tasks. Here's how to use them:
 
     Group Management: 
-    GetGroupMembersFromSeveralGroups.ps1 
-       retrieves all members, including nested group members from a
-       list of groups in a csv
+    GetGroupMembersFromSeveralGroups.ps1 - retrieves all members, including nested group members from a list of groups in a csv
     
     
     File Operations:
