@@ -38,11 +38,10 @@ Each script in this repository is tailored for specific AD tasks. Here's how to 
 Remember to modify the file, group, user names, and file paths in the scripts as applicable to your AD environment.
 
 
-Customization
+
 Most scripts will require some level of customization to work in your environment. Look for comments in the scripts indicating where changes are likely needed.
 
 
-Contributing
 Contributions to this repository are welcome. To contribute:
 
     Fork the repository.
