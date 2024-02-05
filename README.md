@@ -34,6 +34,7 @@ Each script in this repository is tailored for specific AD tasks. Here's how to 
 
 
     User Account Handling: 
+    SetAutoReply.ps1 - Set Out of Office message for several mailboxes at once
 
 Remember to modify the file, group, user names, and file paths in the scripts as applicable to your AD environment.
 
@@ -41,14 +42,6 @@ Remember to modify the file, group, user names, and file paths in the scripts as
 
 Most scripts will require some level of customization to work in your environment. Look for comments in the scripts indicating where changes are likely needed.
 
-
-Contributions to this repository are welcome. To contribute:
-
-    Fork the repository.
-    Create a new branch (git checkout -b feature-branch).
-    Make your changes and commit them (git commit -am 'Add some feature').
-    Push to the branch (git push origin feature-branch).
-    Create a new Pull Request.
 
 License
 
