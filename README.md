@@ -27,7 +27,7 @@ Usage
 Each script in this repository is tailored for specific AD tasks. Here's how to use them:
 
     Group Management: 
-    GetGroupMembersFromSeveralGroups.ps1 - retrieves all members, including nested group members from a list of groups in a csv
+    GetGroupMembersFromSeveralGroups.ps1 - retrieves all members, including nested group members from a list of groups in a .csv
     
     
     File Operations:
@@ -35,6 +35,7 @@ Each script in this repository is tailored for specific AD tasks. Here's how to 
 
     User Account Handling: 
     SetAutoReply.ps1 - Set Out of Office message for several mailboxes at once
+    checkForEmail.ps1 - Check if a user listed in a .txt file has an email
 
 Remember to modify the file, group, user names, and file paths in the scripts as applicable to your AD environment.
 
