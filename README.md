@@ -49,6 +49,6 @@ Most scripts will require some level of customization to work in your environmen
 License
 
 This project is licensed under the MIT License.
-Contact
+
 
 For any queries or assistance, feel free to open an issue in this repository.
