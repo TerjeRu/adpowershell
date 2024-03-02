@@ -7,6 +7,7 @@ I have created this repo to share my learing journey and hopefully help others t
 
 
 OBS!
+
 The scripts that actually change anything on the AD objects should be used with care. They work in my production environment, but may have unintended consequences in your set-up. Read the comments and make sure you understand what it does.
 ## Prerequisites
 
@@ -26,6 +27,8 @@ Each script in this repository is tailored for specific AD tasks. Here's what th
 
     Group Management: 
     GetGroupMembersFromSeveralGroups.ps1 - retrieves all members, including nested group members from a list of groups in a .csv
+
+    getGroupMemberRemoveDuplicatesFromOutput.ps1  - users that is a member of either group 1 or group 2
     
     
     File Operations:
@@ -33,6 +36,7 @@ Each script in this repository is tailored for specific AD tasks. Here's what th
 
     User Account Handling: 
     SetAutoReply.ps1 - Set Out of Office message for several mailboxes at once
+    
     checkForEmail.ps1 - Check if a user listed in a .txt file has an email
 
 Remember to modify the file, group, user names, and file paths in the scripts as applicable to your AD environment.
