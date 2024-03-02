@@ -3,7 +3,11 @@
 ## Overview
 
 This repository, `adpowershell`, is a collection of PowerShell scripts designed for managing and automating tasks in Active Directory (AD). These scripts cover a range of functionalities such as file operations, group management, and user account handling in an AD environment.
+I have created this repo to share my learing journey and hopefully help others that are new to this. The scripts have extensive comments on purpose so users with little formal background can understand the steps. Most scripts will only aim to extract information, those should be fairly harmless to try.
 
+
+OBS!
+The scripts that actually change anything on the AD opbjects should be used with care. They work in my production environment, but may have unintended consequences in your set-up. Read the comments and make sure you understand what it does.
 ## Prerequisites
 
 Before you start using these scripts, ensure you have the following:
@@ -14,17 +18,11 @@ Before you start using these scripts, ensure you have the following:
 
 ## Getting Started
 
-To get started with these scripts:
-
-1. Clone this repository to your local machine or download the scripts directly.
-   ```bash
-   git clone https://github.com/TerjeRu/adpowershell.git
-
-Navigate to the cloned directory: cd adpowershell
+Just copy or download the .ps1 script and enter them in Powershell ISE
 
 Usage
 
-Each script in this repository is tailored for specific AD tasks. Here's how to use them:
+Each script in this repository is tailored for specific AD tasks. Here's what they do:
 
     Group Management: 
     GetGroupMembersFromSeveralGroups.ps1 - retrieves all members, including nested group members from a list of groups in a .csv
