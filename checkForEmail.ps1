@@ -1,8 +1,8 @@
 # Specify the directory containing the user files
 $userFilesDirectory = "FILE PATH"
 
-# Get all files matching 'LSIT OF USERS.txt' in the specified directory
-$userFiles = Get-ChildItem -Path $userFilesDirectory -Filter "SAUusers*.txt"
+# Get all files matching 'LIST OF USERS.txt' in the specified directory
+$userFiles = Get-ChildItem -Path $userFilesDirectory -Filter "LIST OF USERS.txt"
 
 # Loop through each file found
 foreach ($file in $userFiles) {
