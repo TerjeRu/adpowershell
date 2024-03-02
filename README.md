@@ -7,7 +7,7 @@ I have created this repo to share my learing journey and hopefully help others t
 
 
 OBS!
-The scripts that actually change anything on the AD opbjects should be used with care. They work in my production environment, but may have unintended consequences in your set-up. Read the comments and make sure you understand what it does.
+The scripts that actually change anything on the AD objects should be used with care. They work in my production environment, but may have unintended consequences in your set-up. Read the comments and make sure you understand what it does.
 ## Prerequisites
 
 Before you start using these scripts, ensure you have the following:
